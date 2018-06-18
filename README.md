@@ -1,4 +1,4 @@
-[<img src="assets/img/dulceLogo/DulceHorizontal.svg" width="1300" title="">](https://dulce-work-schedule.github.io/2018.1-Dulce_App/)
+[<img src="assets/img/dulceLogo/DulceHorizontal.svg" width="1300" title="">](https://dulce-work-schedule.github.io/)
 # Dulce Documentação
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
