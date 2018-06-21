@@ -213,13 +213,12 @@
                                             O Redux armazena as informações obtidas no uso do aplicativo em uma store, para facilitar o acesso dessas informações em outras telas. Para a implementação do redux, dividimos os arquivos em Actions e Reducers. Um Reducer é um objeto que é salvo na store durante o uso do aplicativo de forma q possa ser chamado e modificado em toda a aplicação sem a necessidade de ser transitado entre as telas. A Store é um Reducer onde armazenamos todos os outros reducers ultilizados para facilitar o acesso. Para acrescentar ou retirar alguma informação da store, é necessário o uso das funções declaradas nas Actions que manipulam o conteúdo da Store.
                                           </p>
                                           </div>
-                                          <h6>API</h6>
+                                          <h6>Microsserviços</h6>
                                           <div style ="text-align: justify">
                                           <p>
-                                            A API, produzida em Node.js, controla e fornece as informações visualizadas no aplicativo.
+                                            Os microsserviços, produzida em Node.js, controlam e fornecem as informações visualizadas no aplicativo.
                                             Para qualquer manipulação de dados feita pelo aplicativo é necessário que ela seja chamada.
-                                            A API é dividida de acordo com as funcionalidades, seguindo a arquitetura de microsserviços.
-                                            Para implementar essa aquitetura de microsserviços, utilizamos a ferramenta Seneca JS, que fornece plugins que cuidam das fundações da API.
+                                            Para implementar essa aquitetura de microsserviços, utilizamos a ferramenta Seneca JS, que fornece plugins que cuidam das fundações dos microsserviços.
                                           </p>
                                           <p>
                                             Cada microsserviço contém um Client e um Server. O Client é o intermediário entre o aplicativo e o Server.
@@ -263,15 +262,11 @@
                                           </p> -->
                                         </div>
                                         <h3>4.2 Diagrama de Pacotes</h3>
-                                        <h6><b>A) Front-end</b></h6>
+                                        <h6><b>Front-end</b></h6>
                                           <p align = "center">
                                           <img src="../assets/img/Diagrama_pacotes_react.png" width="1000" >
                                           </p>
 
-                                        <h6><b>B) API</b></h6>
-                                        <p align = "center">
-                                        <img src="../assets/img/diagrama_pacotes_api.png">
-                                        </p>
 
                                         <div name= "Referencia" id= "referencia"></div>
 
